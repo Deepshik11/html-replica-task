@@ -1,0 +1,59 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* color pallete  */
+    --base1 : #FFFDF6;
+    --base2 : #FAF6E9;
+    --base3 : #DDEB9D;
+    --base4 : #A0C878;
+    
+    /* font name  */
+    --heading-font: 'Playfair Display';
+    --body-font: 'Lato', sans-serif;
+
+    /* font weight  */
+    --weight-1 : 700;
+    --weight-2 : 800;
+}
+body{
+    background-color: var(--base1)!important;
+}
+.nav-link{
+    color: var(--base4)!important;
+    text-transform: uppercase;
+    font-weight: 700!important;
+    font-style: bold;
+    font-size: 20px!important;
+    font-family: var(--heading-font);
+    letter-spacing: 1.5px;
+    margin-left: 24px;
+}
+svg{
+    color: var(--base4)!important;
+    width: 41px;
+    height: 41px;
+}
+.navbar{
+    flex-direction: row!important;
+}
+h1{
+    font-family: var(--heading-font);
+    font-weight: var(--weight-2);
+    font-style: bold;
+    font-size: 60px!important;
+}
+
+.hero{
+    width: 50%;
+}
+.main-container{
+    background-color: var(--base3);
+}
+.cus_button{
+    background-color: var(--base4)!important;
+    border: none!important;
+}
