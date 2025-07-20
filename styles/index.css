@@ -80,6 +80,32 @@ h6{
     margin-left: 90px;
     margin-right: 90px;
 }
+.cus_div{
+    position: absolute;
+    z-index: 344;
+    padding: 10px 30px;
+    width: 100%;
+    bottom: 0;
+}
+.main_brand{
+   
+}
+.brand{
+    width: 983px;
+    background-color: rgba(160, 200, 120, 0.5);
+    position: relative;
+    margin-top: 150px!important;
+    border-radius: 16px;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+}
 /* Tablets (768px to 1024px) */
 @media (max-width: 1024px) {
     .main-container {
